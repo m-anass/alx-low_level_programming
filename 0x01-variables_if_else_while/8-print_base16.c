@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	int x = 97;
+	int x = 48;
 
-	while (x <= 122)
+	while (x <= 57)
 	{
 		putchar(x);
 		x++;
 	}
-	x = 65;
+	x = 97;
 
-	while (x <= 70)
+	while (x <= 102)
 	{
 		putchar(x);
 		x++;
