@@ -17,15 +17,15 @@ int main(void)
 
 		while (y <= 57)
 		{
-			z = 48;
+			z = x;
 
 			while (z <= 57)
 			{
-				n = 48;
+				n = y;
 
 				while (n <= 57)
 				{
-					if (x == z && y >= n)
+					if ((x == y && y == z && z == n ) || (x == z && y == n))
 					{
 						n++;
 						continue;
@@ -35,6 +35,11 @@ int main(void)
 					putchar(' ');
 					putchar(z);
 					putchar(n);
+					if (x == 57 && y == 56)
+					{
+						n++;
+						continue;
+					}
 					putchar(',');
 					putchar(' ');
 					n++;
