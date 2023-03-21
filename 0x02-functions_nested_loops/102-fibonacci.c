@@ -18,6 +18,7 @@ int main(void)
 			break;
 		}
 		printf("%d, ", sum);
+		i++;
 	}
 	return (0);
 }
