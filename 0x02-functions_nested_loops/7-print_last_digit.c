@@ -2,8 +2,10 @@
 /**
  * print_last_digit - print last digit
  * @r: number
- * Return: last digit*/
+ * Return: last digit
+ */
 int print_last_digit(int r)
 {
-	return (r % 10);
+	_putchar(r % 10);
+	return (0);
 }
