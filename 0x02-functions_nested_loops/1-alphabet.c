@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - print alphabet chars
  * Descriotion: A C program that pritns put function
  * Return: Alawys 0 (Success)
  */
