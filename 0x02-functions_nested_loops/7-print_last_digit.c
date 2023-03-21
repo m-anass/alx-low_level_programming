@@ -10,5 +10,6 @@ int print_last_digit(int r)
 
 	x = (r % 10) + 48;
 	_putchar(x);
+	_putchar(x);
 	return (0);
 }
