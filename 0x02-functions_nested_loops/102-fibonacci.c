@@ -7,11 +7,12 @@
 int main(void)
 {
 	int i = 1;
-	int sum = 0;
+	int sum = 1;
 
 	while (i <= 50)
 	{
-		sum += i;
+		old_sum = sum
+		sum += old_sum;
 		if (i == 50)
 		{
 			printf("%d\n", sum);
