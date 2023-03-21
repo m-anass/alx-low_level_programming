@@ -1,7 +1,13 @@
 #include "main.h"
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+        int x = 97;
+
+        while (x <= 122)
+        {
+                _putchar(x);
+                x++;
+        }
+        _putchar('\n');
 }
