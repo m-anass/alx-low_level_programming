@@ -1,6 +1,10 @@
-#include <main.h>
-
-int main()
+#include "main.h"
+/**
+ * main - entry point
+ * Descriotion: A C program that pritns put function
+ * Return: Alawys 0 (Success)
+ */
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
