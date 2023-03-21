@@ -11,7 +11,7 @@ int main(void)
 	int old_sum = 0;
 	while (i <= 50)
 	{
-		old_sum = sum
+		old_sum = sum;
 		sum += old_sum;
 		if (i == 50)
 		{
