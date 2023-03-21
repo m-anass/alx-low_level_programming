@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = 1;
 	int sum = 1;
-
+	int old_sum = 0;
 	while (i <= 50)
 	{
 		old_sum = sum
