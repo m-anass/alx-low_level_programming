@@ -6,10 +6,7 @@
  */
 int main(void)
 {
-	int x = 48;
-	int y = 48;
-	int z = 48;
-	int n = 48;
+	int x = 48; int y = 48; int z = 48; int n = 48;
 
 	while (x <= 57)
 	{
@@ -25,7 +22,7 @@ int main(void)
 
 				while (n <= 57)
 				{
-					if ((x == y && y == z && z == n ) || (x == z && y == n))
+					if ((x == y && y == z && z == n) || (x == z && y == n))
 					{
 						n++;
 						continue;
