@@ -9,7 +9,7 @@ void puts_half(char *str)
 
 	if ((strlen(str) - 1) % 2 == 0)
 	{
-		i = (strlen(str)) / 2;
+		i = (strlen(str)) / 2 + 1;
 
 		while (i < strlen(str))
 		{
