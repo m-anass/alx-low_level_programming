@@ -21,4 +21,6 @@ void print_array(int *a, int n)
 			i++;
 		}
 	}
+	else
+		printf("\n");
 }
