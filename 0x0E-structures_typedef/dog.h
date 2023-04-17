@@ -5,6 +5,7 @@
  * @name: joo
  * @age: jl
  * @owner: oo
+ * Return: void
  */
 struct dog
 {
