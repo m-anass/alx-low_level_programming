@@ -3,6 +3,7 @@
 /**
  * print_dog - nvlas
  * @d: struct
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
