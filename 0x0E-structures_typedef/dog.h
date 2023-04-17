@@ -6,7 +6,6 @@
  * @age: jl
  * @owner: oo
  */
-#include <stdio.h>
 struct dog
 {
 	char *name;
